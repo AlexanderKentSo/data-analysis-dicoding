@@ -1,3 +1,3 @@
-!pip install streamlit
-!pip install matplotlib
-!pip install pandas
+streamlit
+pandas
+matplotlib
