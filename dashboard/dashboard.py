@@ -1,6 +1,6 @@
 import streamlit as st
 
 def func():
-    return st.title('DEEZ')
+    return st.title('TESTING')
 
 func()
