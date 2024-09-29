@@ -4,7 +4,7 @@ import pandas as pd
 
 def pendahuluan():
     title = 'Pendahuluan:sparkles:'
-    cap = 'Dataset yang digunakan pada analisis ini adalah Bike-Sharing-Dataset. \nDataset ini berisi informasi tentang\npeminjaman sepeda di Washington D.C. pada tahun 2011 dan 2012.\nData ini mencatat jumlah sepeda yang dipinjam setiap jam dan hari, \nserta beberapa faktor lain.\nDataset ini mencakup:\n\nwaktu: mencatat update data peminjaman.\nCuaca: Kondisi cuaca seperti cerah, mendung, gerimis, atau hujan.\nHari kerja vs libur: Apakah peminjaman terjadi pada hari kerja atau hari libur.\nJumlah peminjaman: jumlah sepeda yang dipinjam pada rentang waktu tertentu.\n\nTujuan utama dari analisis dataset ini adalah untuk menganalisis pengaruh\nberbagai faktor terhadap jumlah peminjaman sepeda'
+    cap = 'Dataset yang digunakan pada analisis ini adalah Bike-Sharing-Dataset. \nDataset ini berisi informasi tentang peminjaman sepeda di Washington D.C. pada tahun 2011 dan 2012.\nData ini mencatat jumlah sepeda yang dipinjam setiap jam dan hari, serta beberapa faktor lain yang mungkin berpengaruh pada jumlah peminjaman sepeda.\nDataset ini mencakup:\n\nWaktu: mencatat update data peminjaman.\nCuaca: Kondisi cuaca seperti cerah, mendung, gerimis, atau hujan.\nHari kerja vs libur: Apakah peminjaman terjadi pada hari kerja atau hari libur.\nJumlah peminjaman: jumlah sepeda yang dipinjam pada rentang waktu tertentu.\n\nTujuan utama dari analisis dataset ini adalah untuk menganalisis pengaruh berbagai faktor terhadap jumlah peminjaman sepeda'
     return st.title(title),st.text(cap)
 
 # def func2():
